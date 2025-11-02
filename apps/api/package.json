@@ -1,0 +1,14 @@
+{
+  "name": "@plant-ecommerce/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python -m uvicorn main:app --reload",
+    "start": "python -m uvicorn main:app --host 0.0.0.0 --port 8000",
+    "test": "python -m pytest",
+    "lint": "pylint src/"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

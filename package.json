@@ -1,0 +1,32 @@
+{
+  "name": "plant-ecommerce",
+  "version": "1.0.0",
+  "description": "A full-stack plant e-commerce platform inspired by Proven Winners Direct",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "functions"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=apps/web\" \"npm run dev --workspace=apps/api\"",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:functions": "npm run serve --workspace=functions",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "test:watch": "npm run test:watch --workspaces",
+    "lint": "npm run lint --workspaces",
+    "firebase:emulate": "cd infra && firebase emulators:start",
+    "firebase:deploy": "cd infra && firebase deploy",
+    "seed": "node ./seed/seed.js",
+    "clean": "rimraf apps/*/node_modules packages/*/node_modules functions/node_modules node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "rimraf": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

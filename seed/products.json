@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Supertunia Vista Bubblegum",
+    "slug": "supertunia-vista-bubblegum",
+    "description": "A vigorous trailing petunia with large, bubblegum pink flowers that bloom continuously from spring to frost. Perfect for containers, hanging baskets, and landscape beds.",
+    "price": 250,
+    "currency": "BDT",
+    "stock": 50,
+    "images": [
+      "/images/supertunia-vista-bubblegum-1.jpg",
+      "/images/supertunia-vista-bubblegum-2.jpg"
+    ],
+    "status": "published",
+    "attributes": {
+      "usdaZone": "10a",
+      "light": "Full Sun",
+      "water": "Medium"
+    },
+    "solutionTags": ["Container Gardening", "Pollinator Friendly"],
+    "genus": "Petunia",
+    "commonName": "petunia",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "title": "ColorBlaze® Coleus Can Can Coral",
+    "slug": "colorblaze-coleus-can-can-coral",
+    "description": "A vibrant coleus with coral-pink leaves that intensify in full sun. Forms a compact, well-branched plant perfect for containers and borders.",
+    "price": 320,
+    "currency": "BDT",
+    "stock": 30,
+    "images": [
+      "/images/colorblaze-coleus-can-can-coral-1.jpg",
+      "/images/colorblaze-coleus-can-can-coral-2.jpg"
+    ],
+    "status": "published",
+    "attributes": {
+      "usdaZone": "11a",
+      "light": "Partial Sun",
+      "water": "Medium"
+    },
+    "solutionTags": ["Container Gardening", "Shade Loving"],
+    "genus": "Coleus",
+    "commonName": "coleus",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "title": "Profusion Cherry Balsam",
+    "slug": "profusion-cherry-balsam",
+    "description": "A compact, self-cleaning balsam with deep cherry-red flowers that bloom abundantly all season. Heat and humidity tolerant.",
+    "price": 280,
+    "currency": "BDT",
+    "stock": 40,
+    "images": [
+      "/images/profusion-cherry-balsam-1.jpg",
+      "/images/profusion-cherry-balsam-2.jpg"
+    ],
+    "status": "published",
+    "attributes": {
+      "usdaZone": "10b",
+      "light": "Full Sun",
+      "water": "High"
+    },
+    "solutionTags": ["Drought Tolerant", "Pollinator Friendly"],
+    "genus": "Impatiens",
+    "commonName": "balsam",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "title": "Patio Princess Purple Angelonia",
+    "slug": "patio-princess-purple-angelonia",
+    "description": "A compact angelonia with spikes of deep purple flowers. Excellent for hot, humid conditions and perfect for containers.",
+    "price": 300,
+    "currency": "BDT",
+    "stock": 25,
+    "images": [
+      "/images/patio-princess-purple-angelonia-1.jpg",
+      "/images/patio-princess-purple-angelonia-2.jpg"
+    ],
+    "status": "published",
+    "attributes": {
+      "usdaZone": "11b",
+      "light": "Full Sun",
+      "water": "Low"
+    },
+    "solutionTags": ["Drought Tolerant", "Pollinator Friendly", "Low Maintenance"],
+    "genus": "Angelonia",
+    "commonName": "angelonia",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "title": "Sweet Potato Vine Marguerite",
+    "slug": "sweet-potato-vine-marguerite",
+    "description": "A vigorous trailing vine with chartreuse-yellow foliage that brightens any container or landscape. Heat and drought tolerant.",
+    "price": 350,
+    "currency": "BDT",
+    "stock": 35,
+    "images": [
+      "/images/sweet-potato-vine-marguerite-1.jpg",
+      "/images/sweet-potato-vine-marguerite-2.jpg"
+    ],
+    "status": "published",
+    "attributes": {
+      "usdaZone": "10a",
+      "light": "Full Sun",
+      "water": "Low"
+    },
+    "solutionTags": ["Container Gardening", "Drought Tolerant"],
+    "genus": "Ipomoea",
+    "commonName": "sweet potato vine",
+    "createdAt": "2025-10-02T00:00:00Z"
+  }
+]

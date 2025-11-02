@@ -1,0 +1,29 @@
+{
+  "name": "@plant-ecommerce/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-themes": "^0.2.1",
+    "next-intl": "^2.20.0",
+    "react-query": "^3.39.3",
+    "recharts": "^2.8.0",
+    "framer-motion": "^10.16.4",
+    "@plant-ecommerce/ui": "*",
+    "@plant-ecommerce/config": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}

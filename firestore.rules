@@ -1,0 +1,81 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users collection
+    match /users/{userId} {
+      allow read, update: if request.auth != null && request.auth.uid == userId;
+      allow create: if request.auth != null;
+      allow delete: if false;
+    }
+
+    // Products collection
+    match /products/{productId} {
+      allow read: if true; // Public read access
+      allow create, update, delete: if isAdmin() || isModerator();
+    }
+
+    // Orders collection
+    match /orders/{orderId} {
+      allow read: if request.auth != null && (isAdmin() || isFinance() || isDelivery() || request.auth.uid == resource.data.userId);
+      allow create: if request.auth != null;
+      allow update: if isAdmin() || isFinance() || isDelivery();
+      allow delete: if false;
+    }
+
+    // Deliveries collection
+    match /deliveries/{deliveryId} {
+      allow read: if request.auth != null && (isAdmin() || isDelivery());
+      allow create, update: if isAdmin() || isDelivery();
+      allow delete: if false;
+    }
+
+    // Finance collection
+    match /finance/{financeId} {
+      allow read, create, update: if isAdmin() || isFinance();
+      allow delete: if false;
+    }
+
+    // Production collection
+    match /production/{productionId} {
+      allow read, create, update: if isAdmin() || isProduction();
+      allow delete: if false;
+    }
+
+    // Audit logs collection
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+
+    // Helper functions for role-based access control
+    function isAdmin() {
+      return request.auth != null && 
+        request.auth.token.role == 'Admin';
+    }
+
+    function isModerator() {
+      return request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Moderator');
+    }
+
+    function isFinance() {
+      return request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Finance');
+    }
+
+    function isDelivery() {
+      return request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Delivery');
+    }
+
+    function isProduction() {
+      return request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Production');
+    }
+  }
+}
