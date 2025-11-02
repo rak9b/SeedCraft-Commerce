@@ -1,0 +1,56 @@
+[
+  {
+    "uid": "admin-user-001",
+    "email": "admin@plantshop.com",
+    "name": "Admin User",
+    "role": "Admin",
+    "phone": "+8801712345678",
+    "address": "House 123, Road 45, Block C, Banani, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "uid": "moderator-user-001",
+    "email": "moderator@plantshop.com",
+    "name": "Moderator User",
+    "role": "Moderator",
+    "phone": "+8801712345679",
+    "address": "House 456, Road 78, Block D, Gulshan, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "uid": "finance-user-001",
+    "email": "finance@plantshop.com",
+    "name": "Finance User",
+    "role": "Finance",
+    "phone": "+8801712345680",
+    "address": "House 789, Road 12, Block E, Dhanmondi, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "uid": "delivery-user-001",
+    "email": "delivery@plantshop.com",
+    "name": "Delivery User",
+    "role": "Delivery",
+    "phone": "+8801712345681",
+    "address": "Warehouse 1, Airport Road, Kurmitola, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "uid": "production-user-001",
+    "email": "production@plantshop.com",
+    "name": "Production User",
+    "role": "Production",
+    "phone": "+8801712345682",
+    "address": "Greenhouse Complex, Savar, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  },
+  {
+    "uid": "customer-user-001",
+    "email": "customer@plantshop.com",
+    "name": "Customer User",
+    "role": "Customer",
+    "phone": "+8801712345683",
+    "address": "Flat 2A, House 56, Road 10, Block B, Mirpur, Dhaka",
+    "createdAt": "2025-10-02T00:00:00Z"
+  }
+]

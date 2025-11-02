@@ -1,0 +1,100 @@
+{
+  "HomePage": {
+    "heroTitle": "আত্মবিশ্বাসের সাথে আপনার বাগান গড়ে তুলুন",
+    "heroSubtitle": "বিশ্বস্ত ব্রিডারদের কাছ থেকে প্রিমিয়াম গাছ, আপনার দরজায় পৌঁছে দেওয়া হবে",
+    "shopByCategory": "বিভাগ অনুযায়ী কেনাকাটা করুন",
+    "shopBySolution": "সমাধান অনুযায়ী কেনাকাটা করুন",
+    "featuredProducts": "বৈশিষ্ট্যযুক্ত পণ্য",
+    "hardinessZonePrompt": "ব্যক্তিগতকৃত গাছের সুপারিশের জন্য আপনার হার্ডিনেস জোন লিখুন"
+  },
+  "Categories": {
+    "annuals": "বার্ষিক",
+    "perennials": "বহুবার্ষিক",
+    "shrubs": "গুল্ম",
+    "trees": "গাছ",
+    "vines": "লতা",
+    "grass": "অলংকারিক ঘাষ",
+    "vegetables": "শাকসবজি",
+    "herbs": "মসলা"
+  },
+  "Solutions": {
+    "deerResistant": "হরিণ প্রতিরোধী",
+    "droughtTolerant": "খরা সহ্যকারী",
+    "pollinatorFriendly": "পরাগী বন্ধুত্বপূর্ণ",
+    "shadeLoving": "ছায়া প্রেমী",
+    "containerGardening": "ধারে বাগান",
+    "lowMaintenance": "কম রক্ষণাবেক্ষণ"
+  },
+  "Common": {
+    "addToCart": "কার্টে যোগ করুন",
+    "viewDetails": "বিস্তারিত দেখুন",
+    "inStock": "স্টকে আছে",
+    "outOfStock": "স্টকে নেই",
+    "zone": "জোন",
+    "light": "আলো",
+    "water": "পানি",
+    "height": "উচ্চতা",
+    "spread": "ছড়ানো",
+    "bloomTime": "ফুলের সময়",
+    "price": "দাম",
+    "quantity": "পরিমাণ",
+    "total": "মোট",
+    "checkout": "চেকআউট",
+    "cart": "কার্ট",
+    "account": "অ্যাকাউন্ট",
+    "login": "লগইন",
+    "logout": "লগআউট",
+    "register": "নিবন্ধন করুন",
+    "search": "অনুসন্ধান",
+    "currency": "BDT"
+  },
+  "Product": {
+    "careInstructions": "যত্ন নেওয়ার নির্দেশ",
+    "reviews": "পর্যালোচনা",
+    "relatedProducts": "সম্পর্কিত পণ্য",
+    "size": "আকার",
+    "selectSize": "আকার নির্বাচন করুন"
+  },
+  "Cart": {
+    "yourCart": "আপনার কার্ট",
+    "emptyCart": "আপনার কার্ট খালি",
+    "continueShopping": "কেনাকাটা চালিয়ে যান",
+    "subtotal": "উপমোট",
+    "shipping": "শিপিং",
+    "estimatedTax": "আনুমানিক কর",
+    "orderTotal": "অর্ডার মোট",
+    "proceedToCheckout": "চেকআউটে এগিয়ে যান"
+  },
+  "Checkout": {
+    "shippingInformation": "শিপিং তথ্য",
+    "billingInformation": "বিলিং তথ্য",
+    "paymentMethod": "পেমেন্ট পদ্ধতি",
+    "orderSummary": "অর্ডার সারসংক্ষেপ",
+    "placeOrder": "অর্ডার করুন",
+    "shippingTo": "শিপিং করা হবে",
+    "change": "পরিবর্তন"
+  },
+  "Account": {
+    "myAccount": "আমার অ্যাকাউন্ট",
+    "orderHistory": "অর্ডার ইতিহাস",
+    "wishlist": "ইচ্ছেতালিকা",
+    "addresses": "ঠিকানা",
+    "profile": "প্রোফাইল",
+    "settings": "সেটিংস"
+  },
+  "Roles": {
+    "admin": "অ্যাডমিন",
+    "moderator": "মডারেটর",
+    "finance": "অর্থায়ন",
+    "customer": "গ্রাহক",
+    "delivery": "ডেলিভারি",
+    "production": "উত্পাদন"
+  },
+  "Navigation": {
+    "home": "হোম",
+    "shop": "দোকান",
+    "about": "সম্পর্কে",
+    "contact": "যোগাযোগ",
+    "support": "সমর্থন"
+  }
+}

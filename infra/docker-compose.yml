@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # MongoDB for FastAPI backend
+  mongodb:
+    image: mongo:6.0
+    container_name: plant_ecommerce_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - mongodb_data:/data/db
+
+  # Redis for caching
+  redis:
+    image: redis:7-alpine
+    container_name: plant_ecommerce_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Frontend development server
+  web:
+    build:
+      context: ../apps/web
+      dockerfile: Dockerfile.dev
+    container_name: plant_ecommerce_web
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../apps/web:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - api
+
+  # FastAPI backend
+  api:
+    build:
+      context: ../apps/api
+      dockerfile: Dockerfile.dev
+    container_name: plant_ecommerce_api
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../apps/api:/app
+      - /app/venv
+    environment:
+      - ENV=development
+    depends_on:
+      - mongodb
+      - redis
+
+volumes:
+  mongodb_data:
+  redis_data:

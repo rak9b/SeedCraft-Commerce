@@ -1,0 +1,27 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Product images
+    match /products/{productId}/{imageId} {
+      allow read: if true; // Public read access
+      allow create, update: if request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Moderator');
+      allow delete: if request.auth != null && 
+        (request.auth.token.role == 'Admin' || 
+         request.auth.token.role == 'Moderator');
+    }
+
+    // User profile images
+    match /users/{userId}/{imageId} {
+      allow read: if true; // Public read access for profile images
+      allow create, update: if request.auth != null && request.auth.uid == userId;
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Prevent direct access to storage root
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

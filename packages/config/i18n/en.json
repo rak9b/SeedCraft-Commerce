@@ -1,0 +1,100 @@
+{
+  "HomePage": {
+    "heroTitle": "Grow Your Garden with Confidence",
+    "heroSubtitle": "Premium plants from trusted breeders, delivered to your door",
+    "shopByCategory": "Shop by Category",
+    "shopBySolution": "Shop by Solution",
+    "featuredProducts": "Featured Products",
+    "hardinessZonePrompt": "Enter your hardiness zone for personalized plant recommendations"
+  },
+  "Categories": {
+    "annuals": "Annuals",
+    "perennials": "Perennials",
+    "shrubs": "Shrubs",
+    "trees": "Trees",
+    "vines": "Vines",
+    "grass": "Ornamental Grass",
+    "vegetables": "Vegetables",
+    "herbs": "Herbs"
+  },
+  "Solutions": {
+    "deerResistant": "Deer Resistant",
+    "droughtTolerant": "Drought Tolerant",
+    "pollinatorFriendly": "Pollinator Friendly",
+    "shadeLoving": "Shade Loving",
+    "containerGardening": "Container Gardening",
+    "lowMaintenance": "Low Maintenance"
+  },
+  "Common": {
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "zone": "Zone",
+    "light": "Light",
+    "water": "Water",
+    "height": "Height",
+    "spread": "Spread",
+    "bloomTime": "Bloom Time",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "checkout": "Checkout",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "search": "Search",
+    "currency": "BDT"
+  },
+  "Product": {
+    "careInstructions": "Care Instructions",
+    "reviews": "Reviews",
+    "relatedProducts": "Related Products",
+    "size": "Size",
+    "selectSize": "Select Size"
+  },
+  "Cart": {
+    "yourCart": "Your Cart",
+    "emptyCart": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "estimatedTax": "Estimated Tax",
+    "orderTotal": "Order Total",
+    "proceedToCheckout": "Proceed to Checkout"
+  },
+  "Checkout": {
+    "shippingInformation": "Shipping Information",
+    "billingInformation": "Billing Information",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "shippingTo": "Shipping to",
+    "change": "Change"
+  },
+  "Account": {
+    "myAccount": "My Account",
+    "orderHistory": "Order History",
+    "wishlist": "Wishlist",
+    "addresses": "Addresses",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "Roles": {
+    "admin": "Admin",
+    "moderator": "Moderator",
+    "finance": "Finance",
+    "customer": "Customer",
+    "delivery": "Delivery",
+    "production": "Production"
+  },
+  "Navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "support": "Support"
+  }
+}

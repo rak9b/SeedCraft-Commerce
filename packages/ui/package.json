@@ -1,0 +1,41 @@
+{
+  "name": "@plant-ecommerce/ui",
+  "version": "1.0.0",
+  "description": "Shared UI components for the plant e-commerce platform",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "index.ts",
+    "components/**/*",
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "react"
+  ],
+  "author": "Plant E-Commerce Team",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "tailwindcss-animate": "^1.0.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0",
+    "next-themes": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
